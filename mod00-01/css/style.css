@@ -17,6 +17,8 @@ h1{
 	font-family: 'Oswald', sans-serif;
 	font-size: 70px;
 	margin-bottom: 0;
+	letter-spacing: 5px;
+	text-shadow: 2px 2px gray;
 }
 
 h2{
@@ -52,6 +54,7 @@ span{
 	left: 50%;
 	transform: translate(-50%, -50%);	
 	border-radius: 10%;
-    background:rgba(0,0,0,0.5);
+    background:rgba(0,0,0,0.6);
     padding: 80px;
+    box-shadow: 5px 5px 10px #0EFFFFFF;
 }
