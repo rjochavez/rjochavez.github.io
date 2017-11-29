@@ -1,0 +1,43 @@
+/* css reset*/
+*{
+	/*Removes default pad and marg*/
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; /*to vavoid overflow */
+	font-family: 'Roboto', sans-serif;
+}
+
+.wrapper{
+	width: 700px;
+	margin: 0 auto;
+	background: lightgray;
+}
+
+
+header{
+	background: #09c;
+	height: 70px;
+	color: #fff;
+	text-align: center;
+	line-height: 70px;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+
+footer{
+	font-size: 14px;
+	height: 70px;
+	color: #fff;
+	background: #aaa;
+	text-align: center;
+	line-height: 70px;
+}
+
+img{
+	height: 130px;
+	display: inline-block;
+}
+
+#imageUpload{
+	
+}
