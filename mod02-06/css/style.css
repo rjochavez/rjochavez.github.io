@@ -97,6 +97,7 @@ h3{
 	border-radius: 3px;
 	margin: 0 5px;
 	background: #fff;
+	box-shadow: 2px 2px 3px #000;
 }
 
 #postTitle,
@@ -106,6 +107,8 @@ h3{
 	padding: 10px;
 	border-radius: 20px;
 	outline: none;
+	background: #D5EDED;
+	font-family: 'Lobster', cursive;
 }
 
 
@@ -180,6 +183,7 @@ h1{
 p{
 	font-family: 'Lobster', cursive;
 	letter-spacing: 3px;
+	text-shadow: 2px 2px 3px #71C6C9;
 }
 
 span{
