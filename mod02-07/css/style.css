@@ -1,0 +1,65 @@
+/*element selector*/
+p{
+	background: cyan;
+}
+
+/*id selector*/
+#para1{
+	background: gray;
+}
+/*class selector*/
+.paragraphs{
+	background: purple;
+}
+
+/*attribute selector*/
+a[target]{
+	color: gray;
+}
+
+/*attribute with value selector*/
+a[target="top"]{
+	color: blue;
+}
+
+/*universal selector*/
+*{
+	background: #0977A0;
+}
+
+/*adjacent selector - target element should be directly after parent no blockaing element*/
+h3 + h5{ 
+	background: white;
+}
+
+/*general sibling selector*/
+#genSib ~ #childSel{
+	background: pink;
+}
+
+#childSel > a{
+	background: blue;
+}
+
+#pseud > a:hover{
+	color: #fff;
+	background: #000;
+}
+
+li:first-child{
+	/*background: indigo;*/
+}
+
+#pareChil > ul > li:nth-child(odd/*or the number*/){
+	background: indigo;
+}
+
+#pareChil > ul > li:last-child{
+	background: indigo;
+}
+
+body > .paragraphs{
+	background: orange;
+}
+
+
