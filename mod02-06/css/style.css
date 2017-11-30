@@ -1,0 +1,209 @@
+/* css reset*/
+*{
+	/*Removes default pad and marg*/
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; /*to vavoid overflow */
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+	background-image: url("../img/bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.wrapper{
+	width: 700px;
+	margin: 0 auto;
+	background: rgba(98, 190, 167, 0.6);
+	margin-top: 20px;
+	box-shadow: 5px 5px 5px #000;
+	border-radius: 20px;
+
+}
+
+
+header{
+	background: #007174;
+	height: 70px;
+	color: #fff;
+	text-align: center;
+	line-height: 70px;
+	font-size: 15px;
+	border-radius: 20px 20px 0 0;
+
+}
+
+footer{
+	font-size: 20px;
+	height: 70px;
+	color: #fff;
+	background: #007174;
+	text-align: center;
+	line-height: 70px;
+	border-radius: 0 0 20px 20px
+}
+
+form{
+	text-align: right;
+	padding: 10px 20px 20px;
+}
+
+main{
+	padding: 10px;
+}
+
+h3{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	font-size: 27px;
+	font-family: 'Lobster', cursive;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 3px #71C6C9;
+
+}
+
+/*------------------------------------------Content*/
+
+.btn{
+	border: none;
+	padding: 15px 30px;
+	font-size: 18px;
+	border-radius: 5px;
+	color: #fff;
+	box-shadow: 2px 2px 3px #000;
+	font-family: 'Lobster', cursive;
+	text-shadow: 2px 2px 3px #000;
+}
+
+.btn-blue{
+	background: #09c;
+}
+
+.btn-green{
+	background: #4a5;
+}
+
+.img-set-holder{
+	text-align: center;
+}
+
+.img-set{
+	height: 100px;
+	padding: 5px;
+	border-radius: 3px;
+	margin: 0 5px;
+	background: #fff;
+}
+
+#postTitle,
+#postContent{
+	width: 100%;
+	border-radius: 3px;
+	padding: 10px;
+	border-radius: 20px;
+	outline: none;
+}
+
+
+#postTitle{
+	margin-bottom: 20px;
+}
+
+#postContent{
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+
+/*--------------------------------------dashboard*/
+
+#postCircle,
+#imageCircle{
+	height: 70px;
+	width: 70px;
+	line-height: 70px;
+	text-align: center;
+	border-radius: 50%;
+	color: #fff;
+	float: left;
+	font-size: 35px;
+	box-shadow: 2px 2px 3px #000;
+}
+
+#postCircle{
+	background: #0AA771;
+}
+
+#imageCircle{
+	background: #09c;
+}
+
+.inline-blocked{
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	top: 15px;
+	left: 20px;
+	font-size: 20px;
+}
+
+.dashColumn{
+	width: 32%;
+	height: 100px;
+	display: inline-block;
+}
+
+#mainDashboard{
+	padding-top: 20px;
+}
+
+/*---------------------------design*/
+
+.compLogo{
+	height: 50px;
+	float: left;
+	position: relative;
+	top: 7px;
+	left: 150px;
+	filter: drop-shadow(5px 5px 5px #222);
+}
+
+h1{
+	font-family: 'Lobster', cursive;
+	letter-spacing: 3px;
+}
+
+p{
+	font-family: 'Lobster', cursive;
+	letter-spacing: 3px;
+}
+
+span{
+	font-weight: bolder;
+	letter-spacing: 0px;
+	text-transform: uppercase;
+	color: #00dadf;
+	text-shadow: 2px 2px 4px #000;
+}
+
+.btn:hover, 
+img:hover, 
+.fa:hover,
+input:hover{
+	cursor: pointer;
+}
+
+
+.btn:hover, img:hover{
+	background: #7CDCEA;
+	color: #000;
+	text-shadow: 2px 2px 3px #0FA1AE;
+}
+
+.fa:hover{
+	filter: invert(100%);
+}
