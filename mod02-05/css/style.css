@@ -33,11 +33,108 @@ footer{
 	line-height: 70px;
 }
 
-img{
-	height: 130px;
+form{
+	text-align: right;
+	padding: 10px 20px 20px;
+}
+
+main{
+	padding: 10px;
+}
+
+h3{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	font-size: 22px;
+
+}
+
+/*------------------------------------------Content*/
+
+.btn{
+	border: none;
+	padding: 15px 30px;
+	font-size: 14px;
+	border-radius: 5px;
+	color: #fff;
+}
+
+.btn-blue{
+	background: #09c;
+}
+
+.btn-green{
+	background: #4a5;
+}
+
+.img-set-holder{
+	text-align: center;
+}
+
+.img-set{
+	height: 100px;
+	padding: 5px;
+	border-radius: 3px;
+	margin: 0 5px;
+	background: #fff;
+}
+
+#postTitle,
+#postContent{
+	width: 100%;
+	border-radius: 3px;
+	padding: 10px;
+}
+
+
+#postTitle{
+	margin-bottom: 20px;
+}
+
+#postContent{
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+
+/*--------------------------------------dashboard*/
+
+#postCircle,
+#imageCircle{
+	height: 70px;
+	width: 70px;
+	line-height: 70px;
+	text-align: center;
+	border-radius: 50%;
+	color: #fff;
+	float: left;
+	font-size: 35px;
+}
+
+#postCircle{
+	background: #4c5;
+}
+
+#imageCircle{
+	background: #09c;
+}
+
+.inline-blocked{
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	top: 15px;
+	left: 20px;
+	font-size: 20px;
+}
+
+.dashColumn{
+	width: 32%;
+	height: 100px;
 	display: inline-block;
 }
 
-#imageUpload{
-	
+#mainDashboard{
+	padding-top: 20px;
 }

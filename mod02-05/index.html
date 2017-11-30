@@ -1,76 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-	<link rel="stylesheet" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	<script src="https://use.fontawesome.com/9dbf2f8a80.js"></script>
-	<title>DOM Activity 3</title>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<link rel="stylesheet" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<script src="https://use.fontawesome.com/9dbf2f8a80.js"></script>
+		<title>DOM Activity 3</title>
+	</head>
+	<body>
 
-</head>
-<body>
+		<div class="wrapper">
 
-	<div class="wrapper">
-		<header>
-			<h1>Tuitt Coding Bootcamp</h1>
-		</header>	
+			<header>
+				<h1>Tuitt Coding Bootcamp</h1>
+			</header>
 
-		<main>
-			<!-- dashboard -->
-			<section>
-				<h3><i></i> Dashboard</h3>
+			<main>
 
-				<!-- posts -->
-				<div>
-					<div><i></i></div>
-					<p>5</p>
-					<p>posts</p>
-				</div>
+				<!-- dashboard -->
+				<section id="mainDashboard">
+					<div class="dashColumn">
+						<h3><i class="fa fa-home" aria-hidden="true"></i> Dashboard</h3>
+					</div>
+					
+					<!-- posts -->
+					<div class="dashColumn">
+						<div id="postCircle">
+							<i class="fa fa-file-text-o" aria-hidden="true"></i>
+						</div>
+						<div class="inline-blocked">
+							<p>5</p>
+							<p>posts</p>
+						</div>
+					</div>
+					<!-- images -->
+					<div class="dashColumn">
+						<div id="imageCircle">
+								<i class="fa fa-file-image-o" aria-hidden="true"></i>
+						</div>
 
-				<!-- images -->
-				<div>
-					<div><i></i></div>
-					<p>13</p>
-					<p>images</p>
-				</div>
-			</section>
+						<div class="inline-blocked">	
+							<p>13</p>
+							<p>images</p>
+						</div>
+					</div>
+				</section>
 
-			<!-- new post -->
-			<section>
-				<h3>New Post</h3>
+				<!-- new post -->
+				<section>
+					<h3><i class="fa fa-plus-circle" aria-hidden="true"></i> New Post</h3>
+					<form method="" action="">
+						<input id="postTitle" type="" name="" placeholder="Enter your post title">
+						<textarea id="postContent" placeholder="Enter your post content"></textarea>
+						<input type="submit" name="btnPublish" id="btnPublish" class="btn btn-blue" value="Publish">
+					</form>
+				</section>
 
-				<form method="" action="">
-					<input type="" name="">
-					<textarea></textarea>
-					<input type="submit" name="" value="Publish">
-				</form>
-			</section>
+				<!-- upload image -->
+				<section>
+					<h3><i class="fa fa-cloud-upload" aria-hidden="true"></i>
+					 Upload Image</h3>
+					<div class="img-set-holder">
+						<img src="http://lorempixel.com/200/200/" class="img-set">
+						<img src="http://lorempixel.com/200/200/" class="img-set">
+						<img src="http://lorempixel.com/200/200/" class="img-set">
+						<img src="http://lorempixel.com/200/200/" class="img-set">
+						<img src="http://lorempixel.com/200/200/" class="img-set">
+					</div>
+					<form method="" action="">
+						<button type="button" class="btn btn-green"><i class="fa fa-upload" aria-hidden="true"></i> Upload</button>
+						<button type="button" class="btn btn-blue"><i class="fa fa-file-image-o" aria-hidden="true"></i> Browse</button>
+					</form>
+				</section>
 
-			<!-- upload image -->
-			<section>
-				<h3>Upload Image</h3>
+			</main>
 
-				<div id="imageUpload">
-					<img src="http://lorempixel.com/200/200/">
-					<img src="http://lorempixel.com/200/200/">
-					<img src="http://lorempixel.com/200/200/">
-					<img src="http://lorempixel.com/200/200/">
-					<img src="http://lorempixel.com/200/200/">
-				</div>
+			<footer>
+				<span>Tuitt Coding Bootcamp &copy; 2017</span>
+			</footer>
 
-				<form method="" action="">
-					<button type="button">Upload</button>
-					<button type="button">Browse</button>
-				</form>
-			</section>
-		</main>
-
-		<footer>
-			<span>Tuitt Coding Bootcamp &copy; 2017</span>
-		</footer>
-	</div>
-
-</body>
+		</div>
+	</body>
 </html>
