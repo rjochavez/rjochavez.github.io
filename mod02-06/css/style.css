@@ -202,7 +202,7 @@ input:hover{
 }
 
 
-.btn:hover, img:hover{
+.btn:hover, .img-set:hover{
 	background: #7CDCEA;
 	color: #000;
 	text-shadow: 2px 2px 3px #0FA1AE;
