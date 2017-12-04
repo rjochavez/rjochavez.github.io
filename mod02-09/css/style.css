@@ -20,6 +20,7 @@ body{
 	top: 10px;
 	border-radius: 10px;
 	filter: drop-shadow(1px 0px 3px #222);
+	margin-bottom: 20px;
 }
 
 .menu{
@@ -210,5 +211,10 @@ img.article-image:hover{
 
 .chef-logo:hover{
 	cursor: pointer;
-	background: rgba(6,162,134,0.1)
+	background: rgba(6,1	62,134,0.1)
+}
+
+h3{
+	text-align: center;
+	text-shadow: 2px 2px 2px #fff;
 }
