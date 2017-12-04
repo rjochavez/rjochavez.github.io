@@ -1,0 +1,214 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: url("../img/bg.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+.wrapper{
+	width: 80%;
+	margin: 0 auto;
+	background: rgba(3,88,73,0.2);
+	position: relative;
+	top: 10px;
+	border-radius: 10px;
+	filter: drop-shadow(1px 0px 3px #222);
+}
+
+.menu{
+	height: 100px;
+	background: #06A286;
+	text-align: left;
+	padding: 0 20px;
+	box-shadow: 1px 1px 10px #000;
+	filter: drop-shadow(1px 0px 3px #222);
+	border-radius: 10px 10px 0 0;
+	line-height: 100px;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 50px;
+	text-shadow: 2px 2px 3px #000;
+	font-weight: bolder;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+span{
+	color: #61CDB7;
+}
+
+.sidebar{
+	height: 534px;
+	background: rgba(6,162,134,0.5);
+	width: 20%;
+	margin: 0 auto;
+	float: left;
+}
+
+ul li{
+	transition: all ease-in-out 300ms;
+}
+
+
+.content{
+	width: 80%;
+	/*height: 500px;*/
+	background: rgba(202,244,231,0.7);
+	float: right;
+	padding: 20px;
+}
+
+.article-image{
+	width: 300px;
+	/*height: 300px;*/
+	float: left;
+	filter: drop-shadow(1px 0px 3px #222);
+	margin-right: 20px;
+	margin-bottom: 20px;
+	border-radius: 30px;
+	border: 5px solid #fff;
+	transition: all ease-in-out 300ms;
+
+}
+
+div.container > p{
+	margin-bottom: 10px;
+}
+
+.footer{
+	background: rgba(34,140,109,0.5);
+	clear: both;
+}
+
+.avatar{
+	background-image: url("../img/chef.jpg");
+	background-size: contain;
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin-right: 20px;
+	border-radius: 50%;
+	filter: drop-shadow(1px 0px 3px #222);
+	box-shadow: 2px 2px 3px #000;
+}
+
+.username{
+	margin-bottom: 15px;
+
+}
+
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.column{
+	background: #ABD6C3;
+	height: 150px;
+	width: 31%;
+	margin: 20px 1.16%;
+	float: left;
+	padding: 15px;
+	position: relative;
+	border-radius: 50px;
+	box-shadow: 1px 1px 10px #000;
+	filter: drop-shadow(1px 0px 3px #222);
+	transition: all ease-in-out 300ms;
+}
+
+
+.block-with-text{
+	overflow: hidden;
+	position: relative;
+	line-height: 1.2em;
+	max-height: 3.6em;
+	text-align: left;
+	margin-right: -1em;
+	padding-right: 30px;
+}
+
+.block-with-text:before{
+	content: "...";
+	position: absolute;
+	right: 58px;
+	bottom: 0;
+}
+
+.block-with-text:after{
+	content: "";
+	position: absolute;
+	right: 58px;
+	width: 1em;
+	height: 1em;
+	margin-top: 0.2em;
+	background: #bdf;
+}
+
+.read-more{
+	position: absolute;
+	right: 40px;
+	bottom: 8px;
+}
+
+
+ul li{
+	list-style-type: none;
+	text-align: center;
+	box-shadow: 2px 2px 5px #000;
+}
+
+
+ul li a{
+	text-decoration: none;
+	font-size: 22px;
+	color: #fff;
+	text-shadow: 1px 1px 3px #000;
+	display: block;
+	transition: all ease-in-out 300ms;
+}
+
+ul li:hover{
+	background: #7FE4B8;
+	color: #000;
+	cursor: pointer;
+}
+
+ul li a:hover{
+	color: #000;
+}
+
+.column:hover{
+	cursor: pointer;
+	background: #129871
+}
+
+img.article-image:hover{
+	cursor: pointer;
+	border: 5px solid #000;
+}
+
+.rightHead{
+	float: right;
+	font-size: 15px;
+}
+
+.chef-logo{
+	height: 200px;
+	position: absolute;
+	top: 390px;
+	left: 8px;
+	filter: drop-shadow(1px 0px 3px #fff);
+	padding: 20px; 
+}
+
+.chef-logo:hover{
+	cursor: pointer;
+	background: rgba(6,162,134,0.1)
+}
