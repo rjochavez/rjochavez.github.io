@@ -1,0 +1,220 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: bisque;
+}
+
+.wrapper{
+	width: 80%;
+	margin: 0 auto;
+	background: lightgray;
+	position: relative;
+}
+
+/*div{
+	padding: 20px;
+}*/
+
+.grandparent{
+	background: lightgreen;
+	width: 80%;
+	position: fixed;
+	bottom: 600px;
+
+}
+
+.parent{
+	background: lightblue;
+	position: relative;
+}
+
+p{
+	/*margin-left: 50px;*/
+}
+
+input[name="submit"]{
+	margin-left: 20px;
+}
+
+strong{
+	background: cyan;
+	position: absolute;
+	top: 0px;
+	left: 0px;	
+}
+
+h1{
+	background: lightblue;
+	padding: 10px;
+	position: fixed;
+	z-index: 1;
+	width: inherit;
+}
+
+main.wrapper > p{
+	height: 1000px;
+	background: #7ACEB7;
+	position: relative;
+	top: 57px;
+	padding: 0 20px 0 20px;
+}
+
+/*-----------PAge 3
+
+/*div{
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	display: inline-block;
+	position: absolute;
+
+}*/
+
+
+/*.blue{
+	background: blue;
+	top: 20px;
+	left: 20px;
+	z-index: 2;
+}
+
+.yellow{
+	background: yellow;
+	top: 40px;
+	left: 40px;
+	z-index: 1;
+}
+
+.orange{
+	background: orange;
+	top: 60px;
+	left: 60px;
+	z-index: 0;
+}
+
+
+.blue:hover,
+.yellow:hover,
+.orange:hover{
+	z-index: 999;
+}*/
+
+/*----------Page 4*/
+
+/*main.wrapper div{
+	padding: 0;
+	margin: 0;
+}*/
+
+.menu{
+	height: 100px;
+	background: #b2d6;
+}
+
+.sidebar{
+	height: 300px;
+	background: #f096;
+	width: 20%;
+	margin: 0 auto;
+	float: left;
+}
+
+.content{
+	width: 80%;
+	/*height: 500px;*/
+	background: #DBB46A;
+	float: right;
+	padding: 20px;
+}
+
+.article-image{
+	width: 300px;
+	/*height: 300px;*/
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+div.container > p{
+	margin-bottom: 10px;
+}
+
+.footer{
+	/*height: 200px;*/
+	background: #7790E3;
+	clear: both;
+}
+
+.avatar{
+	background-image: url('http://lorempixel.com/60/60/');
+	width: 60px;
+	height: 60px;
+	background: #d3f;
+	float: left;
+	margin-right: 20px;
+	border-radius: 50%;
+}
+
+h3.username + p{
+	
+}
+
+.username{
+	margin-bottom: 15px;
+
+}
+
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.column{
+	background: #bdf;
+	height: 150px;
+	width: 31%;
+	margin: 20px 1.16%;
+	float: left;
+	padding: 15px;
+	position: relative;
+}
+
+
+.block-with-text{
+	overflow: hidden;
+	position: relative;
+	line-height: 1.2em;
+	max-height: 3.6em;
+	text-align: left;
+	margin-right: -1em;
+	padding-right: 30px;
+}
+
+.block-with-text:before{
+	content: "...";
+	position: absolute;
+	right: 58px;
+	bottom: 0;
+}
+
+.block-with-text:after{
+	content: "";
+	position: absolute;
+	right: 58px;
+	width: 1em;
+	height: 1em;
+	margin-top: 0.2em;
+	background: #bdf;
+}
+
+.read-more{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
